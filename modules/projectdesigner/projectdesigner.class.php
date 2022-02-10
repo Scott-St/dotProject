@@ -163,7 +163,7 @@ function showtask_pd( &$a, $level=0, $is_opened = true, $today_view = false) {
                         $style = 'background-color:#cc6666;color:#ffffff';
                 }
                 if ($a["task_percent_complete"] == 100){
-                        $style = 'background-color:#aaddaa; color:#00000';
+                        $style = 'background-color:#aaddaa; color:#000000';
                 }
 
                 $days = $now->dateDiff( $end_date ) * $sign;
